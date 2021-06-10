@@ -1,3 +1,1 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^(www\.)?kulig\.fan$ [NC]
-RewriteRule ^kulig-zakopane(\/.*)?$ https://kulig.fan/kulig-zakopane.html [R=301,L]
+Redirect 301 /kulig-zakopane/ https://kulig.fan/kulig-zakopane.html
